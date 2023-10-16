@@ -1,0 +1,94 @@
+.header_theme{
+    text-align:center;
+}
+.header_author{
+    text-align: center;
+}
+.numbers_labs_buttons{
+    text-align: center;
+    width: 100%;
+}
+.numbers_labs_buttons button {
+    text-align: center;
+    margin: 10px;
+    padding: 10px 20px;
+    display: inline;
+    width: 10%;
+    font-size: 13px;
+    background-color: rgb(61, 108, 197);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.numbers_labs_buttons button:hover {
+    background-color: #223c8f;
+}
+
+/* Стили для отключенных кнопок */
+.numbers_labs_buttons button[disabled] {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.numbers_labs_buttons button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.lab_info_buttons button {
+    text-align: center;
+    margin: 10px;
+    padding: 10px 20px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    background-color: #345bdb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.lab_info_buttons button:hover {
+    background-color: #223c8f;
+}
+
+/* Стили для отключенных кнопок */
+.lab_info_buttons button[disabled] {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+.lab_info_buttons button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+.lab_info{
+    width: 20%;
+    float: left;
+}
+.lab_screen_section{
+    width: 80%;
+    float: left;
+}
+.lab_info_html_part{
+    width: 70%;
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.screen_section{
+    margin-left: 100px;
+}

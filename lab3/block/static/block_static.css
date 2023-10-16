@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    height: 100%;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    height: 100%;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body{
+    border-collapse: collapse;
+}
+section{
+    display: flex;
+}
+
+.header_small-div{
+    background-color: white;
+    border: 2px solid black;
+    width: 600px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    height: 50px;
+}
+.main-section{
+    display: flex;
+    float: left;
+}
+.header-div {
+    border: 2px solid black;
+    width: 1920px;
+    background-color: rgb(255, 217, 0);
+}
+.main-left-part{
+    float: left;
+    display: flex;
+    height: 750px;
+}
+.main-left-div{
+    float: left;
+    height: 750px;
+    width: 500px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    border-top: none;
+}
+.main-right-part{
+    flex-wrap: wrap;
+}
+.main-right-red-div{
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-right: 70px;
+    width: 1300px;
+    float: left;
+    border: 3px solid black;
+    background-color: rgb(236, 49, 49);
+    height: 100px;
+}
+.main-right-part{
+    height: 750px;
+    display: flex;
+}
+
+.main-right-white-div {
+    float: left;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 550px;
+    background-color: white;
+    border: 3px solid rgb(49, 49, 49);
+}
+
+.main-right-blue-div {
+    float: right;
+    margin-bottom: 20px;
+    margin-left: auto;
+    width: 600px;
+    margin-top: 20px;
+    margin-right: 70px;
+    height: 550px;
+    background-color: cornflowerblue;
+    border: 3px solid black;
+}
+
+.footer-section {
+    display: flex;
+    float: left;
+    width: 1920px;
+}
+
+.footer-div {
+    border: 2px solid black;
+    width: 1920px;
+    height: 100px;
+    background-color: rgb(255, 217, 0);
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports main page</title>
+    <link rel="stylesheet" href="./lab1_report.css">
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    
+        th,
+        td {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_theme">
+            <p>
+                <img src="./photo.jpg" style="float: right;width: 70px; height: 70px; " alt="IS-22 Vasilenko Dima">
+            <h2>
+                ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ<br>З ДИСЦИПЛІНИ "ІНТЕРНЕТ-ТЕХНОЛОГІЇ та ПРОЄКТУВАННЯ WEB-ЗАСТОСУВАНЬ"
+            </h2>
+            </p>
+        </div>
+        <div class="header_author">
+            <h3>
+                Студент групи ІС-22 Василенко Дмитро Сергійович
+            </h3>
+        </div>
+    </header>
+    <main>
+        <hr>
+        <section>
+            <div class="numbers_labs_buttons">
+                <button onclick="window.location.href = 'D:\\myLabs\\II course\\Web\\lab1\\lab_reports\\main.html';">Лабораторна
+                    робота №1</button>
+                <button onclick="window.location.href = '';">Лабораторна робота №2</button>
+                <button onclick="window.location.href = '';">Лабораторна робота №3</button>
+                <button onclick="window.location.href = '';">Лабораторна робота №4</button>
+                <button onclick="window.location.href = '';">Лабораторна робота №5</button>
+                <button onclick="window.location.href = '';">Лабораторна робота №6</button>
+                <button onclick="window.location.href = '';">Лабораторна робота №7</button>
+                <button onclick="window.location.href = '';">Лабораторна робота №8</button>
+                <button onclick="window.location.href = '';">Лабораторна робота №9</button>
+            </div>
+        </section>
+        <hr>
+        <section class="lab_info">
+            <div class="lab_info_buttons">
+                <button onclick="window.location.href = './lab1_report_part_OPIS.html';">Опис предметного
+                    середовища</button>
+                <button onclick="window.location.href = './lab1_report_part_THEME.html';">Тема / Мета / Місце
+                    розташування лаби
+                    №1</button>
+                <button disabled onclick="window.location.href = '';">СТРУКТУРА ДОКУМЕНТА</button>
+                <div class="lab_info_html_part">
+                    <button onclick="window.location.href = './lab1_report_part_STRUCTURE_TABLE.html';">HTML-код
+                        ТАБЛИЦЬ</button>
+                    <button onclick="window.location.href = './lab1_report_part_STRUCTURE_FROM.html';">HTML-код ФОРМИ</button>
+                    <button onclick="window.location.href = './lab1_report_part_STRUCTURE_IMG.html';">HTML-код ЗОБРАЖЕННЯ</button>
+                </div>
+                <button onclick="window.location.href = './lab1_report_part_STRUCTURE_FINAL.html';">Висновки</button>
+            </div>
+        </section>
+
+        <section class="lab_screen_section">
+            <div class="screen_section">
+                <h2>HTML-код ТАБЛИЦЬ</h2>
+                <img src="./table_screen.png" alt="table">
+                <table id="Table">
+                    <tr>
+                        <th>VIP</th>
+                        <th>EXCLUSIVE</th>
+                        <th>IMMORTAL</th>
+                    </tr>
+                    <tr>
+                        <td>4.99$</td>
+                        <td>14.99$</td>
+                        <td>29.99$</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <div class="clearfix"></div>
+        <hr>
+
+    </main>
+</body>
+
+</html>
