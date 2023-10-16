@@ -167,7 +167,7 @@ header {
 .animat_button {
     display: inline-block;
     border-radius: 25px;
-    background-color: #1e74f4;
+    background-color: rgb(237, 189, 100);;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -178,7 +178,7 @@ header {
     cursor: pointer;
 }
 #anim_but2{
-    background-color: #701ef4;
+    background-color: #303030;
 }
 .animat_button span {
     cursor: pointer;
@@ -644,4 +644,30 @@ html {
 .right-part-content span{
     text-align: center;
     font-size: 48px;
+}
+.main-auc-btn{
+    height: 40px;
+    width: 55%;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #000000;
+    background-color: #fafafa;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    transition: background-color 0.6s ease;
+}
+.main-auc-btn:hover{
+    background-color: rgb(237, 189, 100);
+    
+}
+
+.div-btn-main{
+    padding-top: 3%;
+    padding-left: 70%;
+}
+.main-part-info-1{
+    background: url('./img/act-das1.jpg') no-repeat;
+    background-position: 0px;
+    background-size: cover;
 }
