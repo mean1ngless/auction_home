@@ -24,7 +24,13 @@
             <h1 class="site_name">Auctions & Other.</h1>
             </p>
         </div>
-        <div>
+        <div class="mobile-menu">
+            <div class="burger-menu" onclick="toggleMobileMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="drop">
             <ul class="nav-bar-list-main-c">
                 <li>
                     <a href="#test-nav-header">Головна</a>
@@ -42,7 +48,9 @@
                     <a href="#footer-link-test">Соц. мережі</a>
                 </li>
             </ul>
+            </div>
         </div>
+
         <div class="nav-bar">            
             <ul class="nav-bar__list">
                 <li class="nav-bar__item"><button class="animat_button" style="vertical-align:middle"><span><a style="color: #fafafa; font-size: 14px;" href="./form_login.html">Log
@@ -51,8 +59,9 @@
                         style="vertical-align:middle"><span><a style="color: #fafafa; font-size: 14px;" href="">Sign up</a></span></button></li>
             </ul>
         </div>
+        <script src="./burger-button.js"></script>
     </header>
-
+    <div class="drop_header"></div>
     <main class="main-content">
         <div class="main-part-info-1">
             <div id="left">
@@ -67,10 +76,11 @@
             </div>
             <div id="right">
                 <div class="right-part-content">
-                    <span>Головна фішка сайту - аукціони,</span> <br>
-                    <span>дивись більше на тематичній сторінці</span>
-                    
-                    <div style="width: 85%; border: 1px solid #fafafa;border-radius: 20px; margin-top: 2%;"></div>
+                    <div class="rrtt_">
+                        <span>Головна фішка сайту - аукціони,</span> <br>
+                        <span>дивись більше на тематичній сторінці</span>
+                    </div>
+                    <div style="width: 85%;margin-left: 20px; ;border: 1px solid #fafafa;border-radius: 20px; margin-top: 2%;"></div>
                     <div class="div-btn-main">
                         <button class="main-auc-btn">Дізнатися більше</button>
                     </div>
